@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 use App\Models\Article;
-use App\Models\Assignment;
+use App\Models\Assignment;  
 use App\Models\Course;
 use App\Models\Contribution;
 use App\Models\Evaluation;
@@ -20,7 +20,8 @@ use App\Models\Topic;
 
 use Carbon\Carbon;
 
-use Image;
+use Intervention\Image\Facades\Image;
+// use Image;
 
 /*
 |--------------------------------------------------------------------------
